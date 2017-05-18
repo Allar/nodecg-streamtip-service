@@ -1,0 +1,8 @@
+{
+    "type": "object",
+    "properties": {
+        "streamtip_client_id": { "type": "string", "default": null },
+        "streamtip_access_token": { "type": "string", "default": null }
+    },
+    "required": ["streamtip_client_id", "streamtip_access_token"]
+}

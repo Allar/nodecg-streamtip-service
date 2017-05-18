@@ -1,0 +1,40 @@
+{
+  "name": "nodecg-streamtip-service",
+  "version": "0.0.0",
+  "description": "NodeCG Service for Streamtip",
+  "homepage": "http://allarsblog.com",
+  "author": {
+    "name": "Michael Allar",
+    "email": "allar@michaelallar.com",
+    "url": "http://allarsblog.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "streamtip",
+    "service",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "streamtip-service",
+        "title": "Streamtip Service",
+        "width": 2,
+        "file": "streamtip-service.html",
+        "headerColor": "#9f9bbd"
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT",
+  "dependencies": {
+    "request-json": "^0.6.2"
+  }
+}
